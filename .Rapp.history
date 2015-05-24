@@ -1,0 +1,516 @@
+x=2
+cub(2, 1)
+cube <- function(x, n) {#
+        x^3#
+}
+cub(2,1)
+cube (2,1)
+for (i in 1:10) {}
+print(i)
+for (i in 1:10) {}
+for (i in 1:10) {print(i)}
+x <- c( "a", "b", "c", "d")
+for (i in 1:4)
+{print(x[i])}
+for (i in seq_along(x)) {print(x[i])}
+x
+for (lettre in x) {print (letter)}
+for (lettre in x) {print (letter) }
+for (lettre in x) { print (letter) }
+for (lettre in x) { print (lettre) }
+x <- matrix(1:6, 2, 3)
+for (i in seq_len(nrow(x))) {}
+for (i in seq_len(nrow(x))) { for( j in seq_len(ncol(x))) { print(x[i, j])}}
+x
+for (i in seq_len(nrow(x))) { for( j in seq_len(ncol(x))) { print(x[i, j])}}
+count <- 0
+while (count < 10) { print(count) count <- count + 1}
+count <- 0 while (count < 10) { print(count) count <- count + 1}
+count <- 0  while(count < 10) { print(count) count <- count + 1}
+count <- 0
+while(count < 10) { print(count) count <- count + 1}
+count <- 0#
+while(count < 10) { #
+	      print(count) #
+	      count <- count + 1 #
+	      }
+z <- 5#
+while( z>=3 && z<= 10) { #
+	     print(z) #
+	     coin <- rbinom (1,1, 0.5)#
+	     if (coin==1) { #
+	     	   z<-  z+1#
+	     	   }else {#
+	     	   	z <- z-1#
+	     	   }#
+	   }
+z <- 5#
+while( z>=3 && z<= 10) { #
+	     print(z) #
+	     coin <- rbinom (1,1, 0.5)#
+}
+help
+rbinom()
+for (i in 1:100) { if (i<= 20) { next} print (i)}
+for (i in 1:100) { if (i<= 20) { next } else print (i)}
+cube <- function(x, n){ x^3 }
+cube(3)
+x <- 1:10#
+if(x > 5) {#
+        x <- 0#
+}
+x <- 1:10#
+{ if(x > 5) #
+        x <- 0#
+}
+x
+x <- 1:10#
+{ for i in 1: lenth[x] {if(x > 5) #
+        x[i] <- 0}#
+}
+x <- 1:10#
+{ for i in 1: lenth[x] {if(x > 5) #
+        x[i] <- 0 }#
+}
+x <- 1:10#
+For ( i in 1:10 ) { if(x [i] > 5) { x[i] <- 0 }#
+}
+x <- 1:10#
+> For ( i in 1:10 ) { if (x [i] > 5) { x[i] <- 0 }#
+	print (x{i})#
+}
+x <- 1:10#
+> For ( i in 1:10 ) { if (x [i] > 5) { x[i] <- 0 }#
+	print (x[i])#
+}
+x <- 1:10#
+> For ( i in 1:10 ) { if (x [i] > 5) { x[i] <- 0 }#
+	print (x)#
+}
+x <- 1:10#
+For ( i in 1:10 ) { if (x [i] > 5) { x[i] <- 0 }#
+	print (x)#
+}
+x<- 1:10
+For ( i in 1:10 ) { if (x [i] > 5) { x[i] <- 0 }#
+	print (x)#
+}
+f <- function(x) {#
+        g <- function(y) {#
+                y + z#
+        }#
+        z <- 4#
+        x + g(x)#
+}
+z <- 10
+f(3)
+z <- 5
+f(3)
+f(2)
+x <- 5#
+y <- if(x < 3) {#
+        NA#
+} else {#
+        10#
+}
+y
+h <- function(x, y = NULL, d = 3L) {#
+        z <- cbind(x, d)#
+        if(!is.null(y))#
+                z <- z + y#
+        else#
+                z <- z + f#
+        g <- x + y / z#
+        if(d == 3L)#
+                return(g)#
+        g <- g + 10#
+        g#
+}
+serach()
+search()
+h <- function(x, y = NULL, d = 3L) {#
+        z <- cbind(x, d)#
+        if(!is.null(y))#
+                z <- z + y#
+        else#
+                z <- z + f#
+        g <- x + y / z#
+        if(d == 3L)#
+                return(g)#
+        g <- g + 10#
+        g#
+}
+h(1)
+cbind()
+make.power <- function(n) { #
+	  pow <- function (x) {#
+	  x^n #
+	  }#
+	  pow#
+	  }
+make.power(3)
+cube <- make.power (3)
+cube(3)
+square <- make.power (2)
+square (3)
+ls(environment(cube))
+ls(environment(make.power))
+get ("n", environment(cube))
+y <- 10#
+f <- function (x) {#
+	y <-2#
+	y^2 = g(x)#
+}#
+g <- function (X) {#
+	x*y#
+}
+f(3)
+g(3)
+y <- 10#
+f <- function (x) {#
+	y <-2#
+	y^2 = g(x)#
+}#
+g <- function (x) {#
+	x*y#
+}
+f(3)
+g(3)
+f(3)
+y <- 10#
+f <- function (x) {#
+	y <-2#
+	y^2 = g(x)#
+}#
+g <- function (x) {#
+	x*y#
+}
+g(3)
+f(3)
+make.NegLogLik <- function(data, fixed=c(FALSE,FALSE)) {       params <- fixed       function(p) {                params[!fixed] <- p                                                                        mu <- params[1]               sigma <- params[2]               a <- -0.5*length(data)*log(2*pi*sigma^2)                b <- -0.5*sum((data-mu)^2) / (sigma^2)                -(a+b)       } }
+set.seed(1); normals <- rnorm(100, 1, 2)
+nLL <- make.NegLogLik(normals)
+nLL
+ls(environment(nLL))
+x <- Sys.time()
+x
+p <- as.PROSIXlt(x)
+p <- as.PROSIXlt (x)
+cube <- function(x, n) {#
+        x^3#
+}
+cube(3)
+f <- function(x) {#
+        g <- function(y) {#
+                y + z#
+        }#
+        z <- 4#
+        x + g(x)#
+}
+z <- 10
+f(3)
+x <- 5#
+y <- if(x < 3) {#
+        NA#
+} else {#
+        10#
+}
+y
+pollutantmean <- function(directory, pollutant, id = 1:332) {#
++         for (i in id) { data = read.csv('id.csv')#
++                        nr <- nrow(id[i])#
++                        for (j in 1:nr) { sub <- subset(data, !is.na('pollutant'), select = 'pollutant')#
++                                          means[j] <- mean(id[i], n.rm)#
++                        }#
++                        #
++                         #
++                                 #
++               #
++ }
+pollutantmean <- function(directory, pollutant, id = 1:332) {#
+         for (i in id) { data = read.csv('id.csv')#
+                        nr <- nrow(id[i])#
+                        for (j in 1:nr) { sub <- subset(data, !is.na('pollutant'), select = 'pollutant')#
+                                          means[j] <- mean(id[i], n.rm)#
+                        }#
+ }
+source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript1.R")
+submit()
+source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript1.R")
+getwd()
+source("/Users/sarahenchiri/Desktop/air_pollution /pollutantmean.R")
+pollutantmean("/tmp/specdata/", "sulfate", 6)
+x <- list(a =1:4, b=rnorm(10))
+lapply(x, mean)
+sapply(x, mean)
+x <- matrix(rnorm(200), 20, 10)
+apply(x, 1, quantile, probs = c (0.25, 0.75))
+a <- array(rnorm(2* 2 * 10), c(2, 2, 10))
+a
+rowMean (a)
+rowMean(a)
+rowMeans(a)
+rowMean(a, dims=2)
+rowMean(a, dims = 2)
+rowMeans(a, dims = 2)
+apply(a, c(1, 2, 3), mean)
+apply(a, c(1, 3), mean)
+library(datasets)#
+data(iris)
+?iris
+apply ( iris , "Sepal.length", mean)
+apply ( "iris" , "Sepal.length", mean)
+library(datasets)#
+data(iris)
+x <- data(iris)
+apply ( x , "Sepal.length", mean)
+apply ( x , 1, mean)
+apply ( x , 1, means)
+apply ( x , 1, mean)
+x<- iris
+x
+apply(x, 1, mean)
+apply(x, [ ,1], mean)
+apply(x, [,1], mean)
+apply ( x , "Sepal.length", mean)
+x <- iris
+x
+apply ( x , "Sepal.Length", mean)
+apply (x , "Sepal.Length", mean)
+lapply ( x , "Sepal.Length", mean)
+mean(iris[iris$Species == "virginica",]$Sepal.Length)
+apply(iris[, 1:4], 2, mean)
+apply(iris[, 1:4], 1, mean)
+colMeans(iris)
+library(datasets)#
+data(mtcars)
+?mtcars
+mtcar
+x<- mtcars
+x
+library(datasets)#
+data(mtcars)
+tapply(mtcars$cyl, mtcars$mpg, mean)
+x <- c(rnorm(10), runif(10), rnorm(10, 1))
+x
+f<-gl(3,10)
+f
+tapply(x, f, mean)
+x <- c(rnorm(10))
+x
+mean(x)
+x <- c(0.3912873, 0.2838918, 0.7458639, 0.4448314, 0.2447066, -1.7950135, -0.2661744, -0.1104774, 0.2423090, 0.4460310 )
+mean(x)
+?gl
+?list
+library(datasets)#
+data(mtcars)
+?mtcars
+mtcars
+s apply(split(cyl$mtcars, mpg$mtcars), mean)
+sapply(split(cyl$mtcars, mpg$mtcars), mean)
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+apply(split(mtcars$mpg, mtcars$cyl), mean)
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+log(-1)
+?invisible()
+printmessage <- function(x) { if(x > 0)print("x is greater than zero")elseprint("x is less than or equal to zero") }
+printmessage(4)
+printmessage <- function(x) { if(x > 0)print("x is greater than zero")elseprint("x is less than or equal to zero") invisible(x)}
+> options(error = recover)> read.csv("nosuchfile")
+options(error = recover)
+read.csv("nosuchfile")
+l
+library(datasets)#
+data(mtcars)
+data
+library(datasets)#
+data(mtcars)
+mtcars
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+tapply(mtcars$cyl, mtcars$mpg, mean)
+?abs
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+abs(sapply(split(mtcars$mpg, mtcars$cyl), mean))
+sapply(split(mtcars$cly$4, mtcars$cyl$8), mean)
+abs(sapply(split(mtcars$cly$4, mtcars$cyl$8), mean))
+x <- sapply(split(mtcars$cly$4, mtcars$cyl$8), mean)
+x <- sapply(split(mtcars$cly, mtcars$hp), mean)
+apply(split(mtcars$cly, mtcars$hp), mean)
+sapply(split(mtcars$hp, mtcars$cyl), mean)
+x <- sapply(split(mtcars$hp, mtcars$cyl), mean)
+x
+abs(x)
+mean(mtcars[mtcars$cyl == "8",]$hp) - mean(mtcars[mtcars$cyl == "4",]$hp)
+debug(ls)
+ls()
+library(datasets)#
+data(iris)
+mean(Sepal.Length$species == "virginica")
+mean(iris[Sepal.Length$species == "virginica"])
+mean(iris[iris$Species == "virginica",]$Sepal.Length)
+library(datasets)#
+data(mtcars)
+abn(mean(mtcars[metcars$cyl == 4, mtcars[metcars$cyl == 8]$hp)
+abn(mean(mtcars[metcars$cyl == 4, metcars$cyl == 8]$hp))
+abs(mean(mtcars[metcars$cyl == 4, metcars$cyl == 8]$hp))
+abs(mean(mtcars[metcars$cyl == 4, mtcars$cyl == 8]$hp))
+abs(mean(mtcars[metcars$cyl == "4", mtcars$cyl == "8"]$hp))
+abs(mean(mtcars[metcars$cyl == "4"]) - mean(mtcars[metcars$cyl == "8"])
+abs(mean(mtcars[metcars$cyl == "4"]) - mean(mtcars[metcars$cyl == "8"]))
+mean(mtcars[metcars$cyl == "4"]) - mean(mtcars[metcars$cyl == "8"])
+mean(mtcars[metcars$cyl == "8"]) - mean(mtcars[metcars$cyl == "4"])
+mean(mtcars[mtcars$cyl == "8",]$hp) - mean(mtcars[mtcars$cyl == "4",]$hp)
+makeVector <- function(x = numeric()) {#
+        m <- NULL#
+        set <- function(y) {#
+                x <<- y#
+                m <<- NULL#
+        }#
+        get <- function() x#
+        setmean <- function(mean) m <<- mean#
+        getmean <- function() m#
+        list(set = set, get = get,#
+             setmean = setmean,#
+             getmean = getmean)#
+}
+makeVector(5)
+makeCacheMatrix <- function(x = matrix()) {#
+#
+	    ## @x: a square invertible matrix#
+        ## return: a list containing functions to#
+        ##              1. set the matrix#
+        ##              2. get the matrix#
+        ##              3. set the inverse#
+        ##              4. get the inverse#
+        ##         this list is used as the input to cacheSolve()#
+        inv = NULL#
+        set = function(y) {#
+                x <<- y#
+                inv <<- NULL#
+        }#
+        get = function() x#
+        setinv = function(inverse) inv <<- inverse#
+        getinv <- function() inv#
+        list(set=set, get=get,#
+             setinv=setinv,#
+             getinv=getinv)#
+}
+cacheSolve <- function(x, ...) {#
+        ## Return a matrix that is the inverse of 'x'#
+        inv = x$getinv()#
+        if(!is.null(inv)) {#
+                message("getting cached data")#
+                return(inv)#
+        }#
+        data <- x$get()#
+        inv <- solve(data, ...)#
+        x$setinv(inv)#
+        return(inv)#
+}
+set.seed(1110201)#
+r = rnorm(1000000)#
+mat1 = matrix(r, nrow=1000, ncol=1000)
+makeCacheMatrix(mat1)
+cachSolve(mat1)
+cacheSolve (mat1)
+str(ls)
+str(rnorm)
+str(dnorm)
+set.seed(1)#
+rpois(5, 2)
+? rnorm
+?pnorm
+?dnorm
+?qnorm
+set.seed(10)#
+x <- rep(0:1, each = 5)#
+e <- rnorm(10, 0, 20)#
+y <- 0.5 + 2 * x + e
+x
+y
+getwd()
+## functions create a special object that stores a matrix and cache the inverse of matrix.#
+makeCacheMatrix <- function(x = matrix()) {#
+	    ## @x: a square invertible matrix#
+        ## return: a list containing functions to#
+        ##              1. set the matrix#
+        ##              2. get the matrix#
+        ##              3. set the inverse#
+        ##              4. get the inverse#
+        ##         this list is used as the input to cacheSolve()#
+        inv = NULL#
+        set = function(y) {#
+                x <<- y#
+                inv <<- NULL#
+        }#
+        get = function() x#
+        setinv = function(inverse) inv <<- inverse#
+        getinv <- function() inv#
+        list(set=set, get=get,#
+             setinv=setinv,#
+             getinv=getinv)#
+}#
+## Write a short comment describing this function#
+#
+cacheSolve <- function(x, ...) {#
+        ## Return a matrix that is the inverse of 'x'#
+        inv = x$getinv()#
+        if(!is.null(inv)) {#
+                message("getting cached data")#
+                return(inv)#
+        }#
+        data <- x$get()#
+        inv <- solve(data, ...)#
+        x$setinv(inv)#
+        return(inv)#
+}
+## functions create a special object that stores a matrix and cache the inverse of matrix.#
+makeCacheMatrix <- function(x = matrix()) {#
+	    ## @x: a square invertible matrix#
+        ## return: a list containing functions to#
+        ##              1. set the matrix#
+        ##              2. get the matrix#
+        ##              3. set the inverse#
+        ##              4. get the inverse#
+        ##         this list is used as the input to cacheSolve()#
+        inv = NULL#
+        set = function(y) {#
+                x <<- y#
+                inv <<- NULL#
+        }#
+        get = function() x#
+        setinv = function(inverse) inv <<- inverse#
+        getinv <- function() inv#
+        list(set=set, get=get,#
+             setinv=setinv,#
+             getinv=getinv)#
+}#
+## Write a short comment describing this function#
+#
+cacheSolve <- function(x, ...) {#
+        ## Return a matrix that is the inverse of 'x'#
+        inv = x$getinv()#
+        if(!is.null(inv)) {#
+                message("getting cached data")#
+                return(inv)#
+        }#
+        data <- x$get()#
+        inv <- solve(data, ...)#
+        x$setinv(inv)#
+        return(inv)#
+}
+set.seed(1110201)#
+r = rnorm(1000000)#
+mat1 = matrix(r, nrow=1000, ncol=1000)#
+test(mat1)
+set.seed(1110201)#
+r = rnorm(1000000)#
+mat1 = matrix(r, nrow=1000, ncol=1000)
+makeCacheMatrix(mat1)
+cacheSolve (mat1)
+cacheSolve(mat1)
+getwd()
+source("cachematrix.R")
+cachematrix(mat1)
+cachematrix(mat1)
